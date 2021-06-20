@@ -20,10 +20,10 @@
             <h5 class="card-title">Input</h5>
             <p class="card-text">
               <label for="sourcetext">Text to hash</label>
-              <input id="sourcetext" class="form-control" onchange="calculateHash()" value="sometext"/>
+              <input id="sourcetext" class="form-control" onkeyup="calculateHash()" onchange="calculateHash()" value="sometext"/>
               <br/>
               <label for="hash">Hash</label>
-              <input id="hash" class="form-control" onchange="convert()" value="e4c19bc4cbcda32fa4a64f582ac127770fc146e7"/>
+              <input id="hash" class="form-control" onkeyup="convert()" onchange="convert()" value="e4c19bc4cbcda32fa4a64f582ac127770fc146e7"/>
               <br/>      
             </p>
           </div>
